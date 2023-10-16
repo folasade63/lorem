@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+.top-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.top-page h1 {
+  text-transform: uppercase;
+}
+nav {
+  display: flex;
+  gap: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: blue;
+  padding: 5px 10px;
+  border-radius: 7px;
+}
+nav a:first-child {
+  background-color: #100412;
+  color: #f5e9f7;
+}
+.hero {
+  background-color: #ebd4ef;
+  display: flex;
+  justify-content: space-between;
+  height: 600px;
+  padding: 0px 20px;
+  align-items: center;
+}
+.text-section {
+  width: 50%;
+}
+.image-container {
+  width: 45%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.text-section h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #4e1458;
+}
+.text-section p {
+  font-size: 30px;
+  color: #381046;
+}
+.text-section button {
+  background-color: #ff4081;
+  font-size: 24px;
+  border-radius: 24px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.image-container img {
+  width: 47%;
+  border-radius: 100px;
+  border: 2px solid #4e1458;
+}
+.About-Us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 0px 20px;
+  margin-bottom: 5rem;
+}
+.About-Us h1 {
+  font-weight: bold;
+  font-size: 86px;
+  color: #4e1458;
+  margin-bottom: 50px;
+}
+.About-Us .lorem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lorem:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.lorem img {
+  width: 30%;
+}
+.lorem .lorem-text {
+  width: 65%;
+}
+.lorem-text h2 {
+  font-size: 36px;
+  font-weight: 400;
+}
+.lorem-text p {
+  font-size: 20px;
+}
+
+/* MY CODE */
+.our-prices {
+  text-align: center;
+  padding-top: 30px;
+  margin-block: 2.5rem;
+}
+
+.our-prices h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.prices-container {
+  /* width: 80%; */
+  /* margin: 0 auto; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.prices-img {
+  width: 40px;
+  aspect-ratio: 1/1;
+  border-radius: 100%;
+  margin: 0 auto 30px;
+}
+li {
+  list-style: none;
+}
+
+.img1 {
+  width: 200px;
+  border-radius: 50%;
+  height: 200px;
+}
+.prices:first-child {
+  background-color: #ebd4ef;
+}
+
+.prices {
+  background: gray;
+  padding: 50px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.best {
+  font-weight: 500;
+  font-size: 30px;
+  padding: 10px 0px;
+}
+.good {
+  font-weight: 500;
+  font-size: 30px;
+  padding: 10px 0px;
+}
+.better {
+  font-weight: 500px;
+  font-size: 30px;
+  padding: 10px;
+}
+li {
+  font-size: 20px;
+  padding: 5px 0px;
+}
+.the {
+  font-size: 20px;
+  padding: 5px 0px;
+}
+.con {
+  font-size: 20px;
+  padding: 5px 0px;
+}
+
+.max {
+  font-size: 20px;
+  padding: 5px 0px;
+}
+
+.prices strong {
+  font-size: 45px;
+  font-weight: 900;
+}
+.addto {
+  /* height: 30px;
+  width: 30px; */
+  /* margin: 30px 10px; */
+  background-color: #100412;
+  color: white;
+  padding: 7px;
+  border-radius: 25px;
+  border: none;
+}
+.footr {
+  margin-inline: 40px;
+  margin-block: 70px;
+}
+.footr img {
+  margin-top: 30px;
+  width: 300px;
+  aspect-ratio: 1/1;
+  border: 2px solid #f4aab6f0;
+  border-radius: 100%;
+}
+.footr p {
+  color: green;
+  font-size: 25px;
+  margin-block: 30px;
+}
+.rhoda {
+  color: green;
+  font-size: 25px; 
+}
+.end{
+  display: flex;
+}
+div.form{
+  margin-bottom: 100px;
+  background-color: #ebd4ef;
+  padding: 20px;
+  border-radius: 10px;
+}
+.form form{
+  margin-bottom: 30px;
+  display: flex;
+  gap: 15px;
+}
+input{
+  font-size: 20px;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+}
+form button, .new-account{
+  align-self: center;
+  font-size: 15px;
+  padding: 7px 17px;
+  border-radius: 25px;
+  border: none;
+  background-color: #4e1458;
+  color: white;
+}
